@@ -1,7 +1,18 @@
-﻿Module Module1
-
-    Sub Main()
-
+﻿Imports System.Console
+'Module Module1
+Class CProgramm
+    Shared Sub Main()
+        CSpieler.mthAusgabe()
+        ReadLine()
     End Sub
+    'End Module
+End Class
 
-End Module
+    Class CSpieler
+        Shared Sub mthAusgabe()
+        WriteLine _
+            ("Hallo, mein Name ist Luis Figo!")
+    End Sub
+    End Class
+
+
